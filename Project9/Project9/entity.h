@@ -1,6 +1,7 @@
 #pragma once
 //all movement in entity
 #include "Coordinates.h"
+#include "wall.h"
 
 class gameobject;
 class entity
@@ -19,7 +20,7 @@ public:
 
     void sethealth(int Health);
 
-    virtual void movementcheck(entity** entitylist, gameobject** gameobjectlist) = 0;
+    virtual void movementcheck(entity** entitylist, gameobject** gameobjectlist , wall** walllist) = 0;
 
 
 

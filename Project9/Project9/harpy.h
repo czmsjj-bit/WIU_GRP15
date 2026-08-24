@@ -23,7 +23,7 @@ public:
 
 	void move();
 
-	void movementcheck(entity** entitylist, gameobject** gameobjectlist) override;
+	void movementcheck(entity** entitylist, gameobject** gameobjectlist ,wall** walllist) override;
 
 private:
 	int health;

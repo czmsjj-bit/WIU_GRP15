@@ -1,7 +1,7 @@
 #pragma once
 #include <stdlib.h>
 #include <string>
-
+#include "wall.h"
 #include "entity.h"
 #include "gameobject.h"
 
@@ -13,7 +13,7 @@ public:
 
 
 
-	void movementcheck(entity** entitylist, gameobject** gameobjectlist, wall** walllist);
+	void movementcheck(entity** entitylist, gameobject** gameobjectlist, wall** walllist) override;
 
 	void setattack(int atack);
 
