@@ -82,7 +82,7 @@ int main(void) {
 				if (world.getentitylist()[i] == nullptr) {
 					continue;
 				}
-				world.getentitylist()[i]->movementcheck(world.getentitylist(), world.getgameobjectlist());
+				world.getentitylist()[i]->movementcheck(world.getentitylist(), world.getgameobjectlist(),world.getwalllist());
 
 			}
 

@@ -40,7 +40,7 @@ void harpy::Damage(entity* victim)
 {
 	victim->sethealth(victim->gethealth() - getattack());
 }
-void harpy::movementcheck(entity** entitylist, gameobject** gameobjectlist)
+void harpy::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall** walllist)
 {
 	if (entitylist[0] == nullptr) {
 		return;

@@ -43,7 +43,7 @@ bool boulder::validmovecheck(int input, entity** entitylist, gameobject** gameob
     //then moves it based off the player wasd
     switch (input) {
     case 'w':
-       coordinates.placey(gety() - 1);
+        sety(gety() - 1);
         break;
     case 'a':
         setx(getx() - 1);

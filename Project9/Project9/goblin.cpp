@@ -53,7 +53,7 @@ int goblin::getattack() {
 	return attack;
 }
 
-void goblin::movementcheck(entity** entitylist, gameobject** gameobjectlist)
+void goblin::movementcheck(entity** entitylist, gameobject** gameobjectlist  , wall** walllist)
 {
 	if (entitylist[0] == nullptr) {
 		return;

@@ -13,7 +13,7 @@ public:
 
 	void sethealth(int Health);
 
-	void movementcheck(entity** entitylist, gameobject** gameobjectlist) override;
+	void movementcheck(entity** entitylist, gameobject** gameobjectlist  , wall** walllist) override;
 
 	void Damage(entity* victim);
 

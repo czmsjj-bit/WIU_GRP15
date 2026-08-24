@@ -1,5 +1,7 @@
 #pragma once
 #include "gameobject.h"
+#include "entity.h"
+#include "wall.h"
 class boulder : public gameobject
 {
 private:
