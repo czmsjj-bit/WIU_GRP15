@@ -19,7 +19,7 @@ int main(void) {
 	bool worldcomplete = 0;
 	int worldcount = 0;
 
-	//hgue ballsack
+
 	
 
 	//zi ming world code goes here 
@@ -31,7 +31,7 @@ int main(void) {
 	//if this can run then its perfect already
 
 	
-	map world(0,0,0, "0", "0", "520_01", "529_01");
+	map world(0,0,0, "570_01", "570_01", "520_01", "529_01");
 	
 
 	

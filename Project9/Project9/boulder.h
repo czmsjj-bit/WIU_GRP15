@@ -16,7 +16,7 @@ public:
     void setgrabstatus(bool a);
 
 
-    bool validmovecheck(int input, entity** entitylist, gameobject** gameobjectlist, wall** walllist);
+    bool validmovecheck(char input, entity** entitylist, gameobject** gameobjectlist, wall** walllist);
 
     ~boulder();
 

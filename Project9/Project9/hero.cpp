@@ -27,10 +27,11 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall
 
 {
 	gameobject* target = nullptr;
+	boulder* b = nullptr;
 	for (int u = 0; u < 3; u++) {
 		if (gameobjectlist[u] != nullptr) {
 
-			boulder* b = dynamic_cast<boulder*>(gameobjectlist[u]);
+			b = dynamic_cast<boulder*>(gameobjectlist[u]);
 			if (b == nullptr) continue;
 
 			int dx = std::abs(getx() - gameobjectlist[u]->getx());
@@ -68,6 +69,22 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall
 
 
 	char input = _getch();
+
+	if (target != nullptr) {
+		if (b->geticon() == '0') {
+			b->validmovecheck(input, entitylist, gameobjectlist, walllist);
+
+			if (b->getgrabstatus() == 0) {
+				b->setgrabstatus(1);
+				return;
+			}
+		}
+		//boulder code here 
+	}
+
+
+
+	
 	switch (input) {
 	case 'w':
 		sety(gety() - 1);
@@ -134,6 +151,21 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall
 			}
 		}
 	}
+
+	//run through walllist
+
+
+	for (int u = 0; u < 100; u++) {
+		if (walllist[u] != nullptr) {
+			if (getx() == walllist[u]->getx() &&
+				gety() == walllist[u]->gety())
+			{
+				setx(prevx);
+				sety(prevy);
+
+			}
+		}
+	}
 	//remeber its called a destructor
 	for (int u = 0; u < 3; u++) {
 		if (gameobjectlist[u] != nullptr) {
@@ -141,13 +173,13 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall
 				gety() == gameobjectlist[u]->gety())
 			{
 
-				//uh if you set your icon for your wall to be T it becomes a wall now
-				if (gameobjectlist[u]->geticon() == '_') {
-					setx(prevx);
-					sety(prevy);
-					return;
-				}
-				//i am a boulder pushing 
+				////uh if you set your icon for your wall to be T it becomes a wall now
+				//if (gameobjectlist[u]->geticon() == '_') {
+				//	setx(prevx);
+				//	sety(prevy);
+				//	return;
+				//}
+				////i am a boulder pushing 
 
 
 
@@ -160,39 +192,6 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist , wall
 					std::cout << "boulder push";
 					setx(prevx);
 					sety(prevy);
-
-					//if (gameobjectlist[u]->gety() && gameobjectlist[u]->getx()) {
-					//	switch (input) {
-					//		if (gameobjectlist[u]->gety() == 1 || gameobjectlist[u]->gety() == 15) {
-
-					//	case 'w':
-					//		gameobjectlist[u]->sety(gameobjectlist[u]->gety() - 1);
-					//		break;
-					//	case's':
-					//		gameobjectlist[u]->sety(gameobjectlist[u]->gety() + 1);
-					//		break;
-
-					//		}
-
-					//	//left and right 
-					//		if (gameobjectlist[u]->getx() == 1 || gameobjectlist[u]->getx() == 15) {
-					//	case 'a':
-					//		gameobjectlist[u]->setx(gameobjectlist[u]->getx() - 1);
-					//		break;
-					//	case 'd':
-					//		gameobjectlist[u]->setx(gameobjectlist[u]->getx() + 1);
-					//		break;
-
-					//		}
-					//	case'b':
-					//		break;
-					//	default:
-					//		std::cout << "invalid input";
-					//	}
-					//}
-					//else {
-
-					//}
 
 
 

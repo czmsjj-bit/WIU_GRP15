@@ -11,21 +11,18 @@ boulder::boulder(int xpos, int ypos, char sym)
     coordinates.Placex(xpos);
     coordinates.Placey(ypos);
     icon = sym;
-    grabstatus = 0; //false hampter
+    grabstatus = 1; //not colliding
 }
+
+
 
 void boulder::setgrabstatus(bool a)
 {
-    if(geticon() == '0'){
-        seticon('O');
-
-    
-    }
-    else if (geticon() == 'O') {
-        seticon('0');
-
-    }
+    grabstatus = a;
 }
+
+
+
 
 bool boulder::getgrabstatus()
 {
@@ -34,7 +31,7 @@ bool boulder::getgrabstatus()
 
 //push boulder set x
 //also checks if x is invalid
-bool boulder::validmovecheck(int input, entity** entitylist, gameobject** gameobjectlist, wall** walllist)
+bool boulder::validmovecheck(char input, entity** entitylist, gameobject** gameobjectlist, wall** walllist)
 {
     //save the previous location
     int prevx = coordinates.Returnx();
@@ -61,23 +58,22 @@ bool boulder::validmovecheck(int input, entity** entitylist, gameobject** gameob
 
     //runs thru the item list
     for (int u = 0; u < 4; u++) {
-        if (u == 0) { // checking for itself
-            continue;
-        }
+     
         if (entitylist[u] != nullptr) {
             if (getx() == entitylist[u]->getx() &&
                 gety() == entitylist[u]->gety())
             {
                 setx(prevx);
                 sety(prevy);
-                return false;
+                return grabstatus = 0;
             }
         }
     }
 
     //remeber its called a destructor
-    for (int u = 0; u < 3; u++) {
-        if (gameobjectlist[u] != nullptr) {
+    for (int u = 0; u < 10; u++) {
+        if (gameobjectlist[u] != nullptr || gameobjectlist[u] == this) {
+
             if (getx() == gameobjectlist[u]->getx() &&
                 gety() == gameobjectlist[u]->gety())
             {
@@ -85,36 +81,31 @@ bool boulder::validmovecheck(int input, entity** entitylist, gameobject** gameob
                 if (gameobjectlist[u]->geticon() == '_') {
                     setx(prevx);
                     sety(prevy);
-                    return false;
+                    return grabstatus = 0;
+
                 }
 
                 //i am a boulder pushing
-                if (gameobjectlist[u]->geticon() == 'O' || gameobjectlist[u]->geticon() == '0') {
-                    std::cout << "boulder push";
-                    setx(prevx);
-                    sety(prevy);
-                    return false;
-                }
+             
             }
         }
     }
 
     //check wall collisions too, since walllist is now passed in
-    for (int u = 0; u < 8; u++) {   // match this to walllistsize
+    for (int u = 0; u < 100; u++) {   // match this to walllistsize
         if (walllist[u] != nullptr) {
             if (getx() == walllist[u]->getx() &&
                 gety() == walllist[u]->gety())
             {
                 setx(prevx);
                 sety(prevy);
-                return false;
+                return grabstatus = 0;
             }
         }
     }
 
-    return true; // moved successfully, no collision
-}   // <-- this closing brace was missing before
-
+    return grabstatus = 1; // moved successfully, no collision
+}  
 boulder::~boulder()
 {
 }
