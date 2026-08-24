@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\boulder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\healthorb.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\harpy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\goblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\harpy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\boulder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\wall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\Coordinates.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\Coordinates.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\healthorb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB11D0C7-E068-408A-9AD8-80D751D5495C}|Project9\\Project9.vcxproj|solutionrelative:Project9\\entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "map.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.h",
+              "RelativeDocumentMoniker": "Project9\\map.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.h",
+              "RelativeToolTip": "Project9\\map.h",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.465Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "map.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.cpp",
+              "RelativeDocumentMoniker": "Project9\\map.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\map.cpp",
+              "RelativeToolTip": "Project9\\map.cpp",
+              "ViewState": "AgIAABQBAAAAAAAAAAAAAB4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.452Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gameobject.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.h",
+              "RelativeDocumentMoniker": "Project9\\gameobject.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.h",
+              "RelativeToolTip": "Project9\\gameobject.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "boulder.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.cpp",
+              "RelativeDocumentMoniker": "Project9\\boulder.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.cpp",
+              "RelativeToolTip": "Project9\\boulder.cpp",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "entity.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.h",
+              "RelativeDocumentMoniker": "Project9\\entity.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.h",
+              "RelativeToolTip": "Project9\\entity.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "goblin.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.h",
+              "RelativeDocumentMoniker": "Project9\\goblin.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.h",
+              "RelativeToolTip": "Project9\\goblin.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "harpy.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.h",
+              "RelativeDocumentMoniker": "Project9\\harpy.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.h",
+              "RelativeToolTip": "Project9\\harpy.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "harpy.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.cpp",
+              "RelativeDocumentMoniker": "Project9\\harpy.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\harpy.cpp",
+              "RelativeToolTip": "Project9\\harpy.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "goblin.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.cpp",
+              "RelativeDocumentMoniker": "Project9\\goblin.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\goblin.cpp",
+              "RelativeToolTip": "Project9\\goblin.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAnwDsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "healthorb.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.h",
+              "RelativeDocumentMoniker": "Project9\\healthorb.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.h",
+              "RelativeToolTip": "Project9\\healthorb.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "wall.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.cpp",
+              "RelativeDocumentMoniker": "Project9\\wall.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.cpp",
+              "RelativeToolTip": "Project9\\wall.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\main.cpp",
+              "RelativeDocumentMoniker": "Project9\\main.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\main.cpp",
+              "RelativeToolTip": "Project9\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "hero.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.cpp",
+              "RelativeDocumentMoniker": "Project9\\hero.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.cpp",
+              "RelativeToolTip": "Project9\\hero.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "hero.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.h",
+              "RelativeDocumentMoniker": "Project9\\hero.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\hero.h",
+              "RelativeToolTip": "Project9\\hero.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "boulder.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.h",
+              "RelativeDocumentMoniker": "Project9\\boulder.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\boulder.h",
+              "RelativeToolTip": "Project9\\boulder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Coordinates.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\Coordinates.cpp",
+              "RelativeDocumentMoniker": "Project9\\Coordinates.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\Coordinates.cpp",
+              "RelativeToolTip": "Project9\\Coordinates.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "wall.h",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.h",
+              "RelativeDocumentMoniker": "Project9\\wall.h",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\wall.h",
+              "RelativeToolTip": "Project9\\wall.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-24T07:09:03.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "gameobject.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.cpp",
+              "RelativeDocumentMoniker": "Project9\\gameobject.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\gameobject.cpp",
+              "RelativeToolTip": "Project9\\gameobject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "healthorb.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.cpp",
+              "RelativeDocumentMoniker": "Project9\\healthorb.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\healthorb.cpp",
+              "RelativeToolTip": "Project9\\healthorb.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "entity.cpp",
+              "DocumentMoniker": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.cpp",
+              "RelativeDocumentMoniker": "Project9\\entity.cpp",
+              "ToolTip": "C:\\Users\\CZMSJ\\OneDrive\\Documents\\GitHub\\WIU_GRP15\\Project9\\Project9\\entity.cpp",
+              "RelativeToolTip": "Project9\\entity.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-24T07:09:03.464Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
