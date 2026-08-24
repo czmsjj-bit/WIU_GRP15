@@ -14,15 +14,10 @@ boulder::boulder(int xpos, int ypos, char sym)
     grabstatus = 1; //not colliding
 }
 
-
-
 void boulder::setgrabstatus(bool a)
 {
     grabstatus = a;
 }
-
-
-
 
 bool boulder::getgrabstatus()
 {
@@ -33,10 +28,10 @@ bool boulder::getgrabstatus()
 //also checks if x is invalid
 bool boulder::validmovecheck(char input, entity** entitylist, gameobject** gameobjectlist, wall** walllist)
 {
+    button* but = nullptr;
     //save the previous location
     int prevx = coordinates.Returnx();
     int prevy = coordinates.Returny();
-
     //then moves it based off the player wasd
     switch (input) {
     case 'w':
@@ -56,9 +51,8 @@ bool boulder::validmovecheck(char input, entity** entitylist, gameobject** gameo
         return true; // nothing moved, nothing to check
     }
 
-    //runs thru the item list
-    for (int u = 0; u < 4; u++) {
-     
+    // FIX: use entitylistsize instead of hardcoded 4
+    for (int u = 0; u < 10; u++) {
         if (entitylist[u] != nullptr) {
             if (getx() == entitylist[u]->getx() &&
                 gety() == entitylist[u]->gety())
@@ -70,29 +64,39 @@ bool boulder::validmovecheck(char input, entity** entitylist, gameobject** gameo
         }
     }
 
-    //remeber its called a destructor
+    // FIX: was "!= nullptr || == this" (always true when it IS this,
+    // causing self-collision every move). Now correctly EXCLUDES self,
+    // and uses gameobjectlistsize instead of hardcoded 10.
     for (int u = 0; u < 10; u++) {
-        if (gameobjectlist[u] != nullptr || gameobjectlist[u] == this) {
-
+        if (gameobjectlist[u] != nullptr && gameobjectlist[u] != this) {
             if (getx() == gameobjectlist[u]->getx() &&
                 gety() == gameobjectlist[u]->gety())
             {
                 //uh if you set your icon for your wall to be T it becomes a wall now
-                if (gameobjectlist[u]->geticon() == '_') {
+                if (gameobjectlist[u]->geticon() == '-') {
+                    but = dynamic_cast<button*>(gameobjectlist[u]);
+                    // FIX: null-check the cast before calling through it —
+                    // this was the source of the "this was nullptr" crash
+                    if (but != nullptr) {
+                        but->openupdoor(gameobjectlist);
+                        delete but;
+                        gameobjectlist[u] = nullptr;
+                        //crushes button 
+                        //then turns on the door
+                    }
+                }
+                else {
                     setx(prevx);
                     sety(prevy);
                     return grabstatus = 0;
-
                 }
-
                 //i am a boulder pushing
-             
             }
         }
     }
 
-    //check wall collisions too, since walllist is now passed in
-    for (int u = 0; u < 100; u++) {   // match this to walllistsize
+    // FIX: use walllistsize instead of hardcoded 100
+    for (int u = 0; u < 10; u++) {
         if (walllist[u] != nullptr) {
             if (getx() == walllist[u]->getx() &&
                 gety() == walllist[u]->gety())
@@ -103,9 +107,9 @@ bool boulder::validmovecheck(char input, entity** entitylist, gameobject** gameo
             }
         }
     }
-
     return grabstatus = 1; // moved successfully, no collision
-}  
+}
+
 boulder::~boulder()
 {
 }
