@@ -9,11 +9,15 @@
 #include "Item.h"
 #include "Encounter.h"
 #include "ScrollList.h"
+#include "Menu.h"
+#include "Dialogue.h"
 //New
 
 
 int main(void) {
-	Inventory inventory;
+	  Menu menu;
+	  menu.showTitleScreen();
+
 	Inventory inv;
 
 	Encounter encounter;
@@ -94,9 +98,9 @@ int main(void) {
 
 	//this can only print at max 8 walls
 	//if this can run then its perfect already
+	//multiworldsyst
 
-
-	map world(0, 0, 0, "0", "0", "520_01", "529_01");
+	map world(2, 2, 0, "0", "0", "510_01", "529_01","130_01", "140_01", "150_01", "160_01");
 
 
 

@@ -1,7 +1,7 @@
 ﻿#include "map.h"
 #include <iostream>
 #include "wall.h"
-
+#include "Cerberus.h"
 
 //
 
@@ -31,7 +31,7 @@ int map::mapcount = 9;
 
 
 //this makes everything its just poorly named
-map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4)
+map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4 , std::string wall5 , std::string wall6 , std::string wall7 , std::string wall8)
 {
 
 	
@@ -71,15 +71,15 @@ map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2,
 	//out of the 7 objects 4 have been created
 	
 	for (int i = 1; i < abs(Enemy1); i++) {
-		goblin* Goblin = new goblin(20, 5, rand() % 15, rand() % 15, 'G');
-		entitylist[i] = Goblin;
+		Cerberus* dog = new Cerberus(20, 5, 5, 5, 'W');
+		entitylist[i] = dog;
 
 
 		//goblin(int hp, int atk, int xpos, int ypos, char a);
 	}
 	for (int i = 1+Enemy1; i < Enemy1 + Enemy2; i++) {
 		
-		harpy * Tachy = new harpy(999, 5, rand() % 15, rand() % 15, U'ン');
+		harpy * Tachy = new harpy(999, 5, rand() % 15, rand() % 15, 'H');
 		entitylist[i] = Tachy;
 	}
 	//ORIGNAL CLASS CONSTRUCTOR AREA FOR OBJECTS still is...
@@ -196,6 +196,95 @@ map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2,
 		}
 		offset += count;
 	}
+
+	if (!(wall5[0] == '0')) {
+		int count = digit(wall5[0]);
+
+
+		//correct amount of thingies printed wrong number of shi
+		for (int i = 0; i < count; i++) {
+
+			wall* WallS = new wall(digit(wall5[1]) - 1 + digit(wall5[4]),
+				digit(wall5[2]) - 1 + digit(wall4[5]),
+				wall5[3]);
+			if (!(digit(wall5[4]) == 0)) {
+				wall5[4] += 1;
+			}
+			if (!(digit(wall4[5]) == 0)) {
+				wall5[5] += 1;
+			}
+			walllist[offset + i] = WallS;
+
+		}
+		offset += count;
+	}
+
+	if (!(wall6[0] == '0')) {
+		int count = digit(wall6[0]);
+
+
+		//correct amount of thingies printed wrong number of shi
+		for (int i = 0; i < count; i++) {
+
+			wall* WallS = new wall(digit(wall6[1]) - 1 + digit(wall6[4]),
+				digit(wall6[2]) - 1 + digit(wall7[5]),
+				wall6[3]);
+			if (!(digit(wall6[4]) == 0)) {
+				wall6[4] += 1;
+			}
+			if (!(digit(wall4[5]) == 0)) {
+				wall6[5] += 1;
+			}
+			walllist[offset + i] = WallS;
+
+		}
+		offset += count;
+	}
+
+	if (!(wall6[0] == '0')) {
+		int count = digit(wall6[0]);
+
+
+		//correct amount of thingies printed wrong number of shi
+		for (int i = 0; i < count; i++) {
+
+			wall* WallS = new wall(digit(wall7[1]) - 1 + digit(wall7[4]),
+				digit(wall7[2]) - 1 + digit(wall7[5]),
+				wall7[3]);
+			if (!(digit(wall7[4]) == 0)) {
+				wall7[4] += 1;
+			}
+			if (!(digit(wall4[5]) == 0)) {
+				wall7[5] += 1;
+			}
+			walllist[offset + i] = WallS;
+
+		}
+		offset += count;
+	}
+	if (!(wall8[0] == '0')) {
+		int count = digit(wall8[0]);
+
+
+		//correct amount of thingies printed wrong number of shi
+		for (int i = 0; i < count; i++) {
+
+			wall* WallS = new wall(digit(wall8[1]) - 1 + digit(wall8[4]),
+				digit(wall8[2]) - 1 + digit(wall8[5]),
+				wall8[3]);
+			if (!(digit(wall8[4]) == 0)) {
+				wall8[4] += 1;
+			}
+			if (!(digit(wall4[5]) == 0)) {
+				wall8[5] += 1;
+			}
+			walllist[offset + i] = WallS;
+
+		}
+		offset += count;
+	}
+
+
 	//should create a 3x1 dead center 
 
 

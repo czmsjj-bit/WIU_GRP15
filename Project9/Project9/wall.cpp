@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+
 wall::wall(int xpos, int ypos, char icon)
 {
 	coordinates.Placey(xpos -0 );

@@ -124,6 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="button.h" />
+    <ClInclude Include="Cerberus.h" />
+    <ClInclude Include="Dialogue.h" />
     <ClInclude Include="door.h" />
     <ClInclude Include="encounter.h" />
     <ClInclude Include="harpy.h" />
@@ -137,11 +139,14 @@
     <ClInclude Include="inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="map.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="ScrollList.h" />
     <ClInclude Include="wall.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="button.cpp" />
+    <ClCompile Include="Cerberus.cpp" />
+    <ClCompile Include="Dialogue.cpp" />
     <ClCompile Include="door.cpp" />
     <ClCompile Include="encounter.cpp" />
     <ClCompile Include="harpy.cpp" />
@@ -156,6 +161,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="map.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="ScrollList.cpp" />
     <ClCompile Include="wall.cpp" />
   </ItemGroup>
