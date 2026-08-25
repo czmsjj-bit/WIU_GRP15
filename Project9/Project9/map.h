@@ -11,8 +11,9 @@
 #include "button.h"
 
 class map
-
 {
+protected:
+
 
 public:
 	wall** getwalllist();
@@ -22,11 +23,15 @@ public:
 	//
 	int getentitylistsize();
 
-	map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4, std::string wall5, std::string wall6, std::string wall7, std::string wall8);
+	map(int buttonlocation , int doorlocation, int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4, std::string wall5, std::string wall6, std::string wall7, std::string wall8);
 
-	void getmapcount() {
 	
-	}
+
+
+
+	//added boulder location button location and hero location 
+	
+
 
 	void worldswap();
 
@@ -54,7 +59,7 @@ private:
 	int gameobjectlistsize = 10;
 	int maxenemycount = 0;
 	int walllistsize = 100;
-	static int mapcount;
+
 
 };
 

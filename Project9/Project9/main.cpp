@@ -11,158 +11,53 @@
 #include "ScrollList.h"
 #include "Menu.h"
 #include "Dialogue.h"
-//New
-
+#include "maphandler.h"
+#include "door.h"   // <-- needed for static_cast<door*> and getopenstatus()
 
 int main(void) {
-	  Menu menu;
-	  menu.showTitleScreen();
+	maphandler handler;
+
+	Menu menu;
+	menu.showTitleScreen();
 
 	Inventory inv;
-
 	Encounter encounter;
-
-
-	encounter.GenerateEncounter();     // stock 3 random scrolls
-	encounter.scrollPick(inv);   // player picks one; encounter closes; inventory opens
-
-	//map world;
-	////New
-
-
-	////map printing
-
-
-	//int num = 0;
-	//char input = 'a';
-
-	////so this is how it works the first number is the Y position and the X is the second
-	////-> (*...).getfunc
-
-	////lowkey just store all the positions here
-
-	////map gets all cordinates of everything 
-	////after everything moves???
-
-	////world.mapx(
-
-	////enemies into 
-
-	////enemies[3]
-
-	////forloop [3]
-
-	//while (enemy::getenemycount() > 0 && world.getentitylist()[0] != nullptr) {
-	//	//map rendering
-	//	system("cls");
-	//	world.print();
-	//	std::cout << std::endl;
-
-
-
-
-	//	if (!(world.getentitylist()[0] == nullptr)) {
-	//		std::cout << "you have" << world.getentitylist()[0]->gethealth() << "hp left";
-	//	}
-	//	std::cout << std::endl;
-	//	//rebuild the map each time
-	//	for (int i = 0; i < 4; i++) {
-	//		if (world.getentitylist()[i] == nullptr) {
-	//			continue;
-	//		}
-
-	//		world.getentitylist()[i]->movementcheck(world.getentitylist(), world.getgameobjectlist());
-
-	//	}
-
-	//}
-
-	//if (world.getentitylist()[0] == nullptr) {
-	//	std::cout << "you lost";
-	//	std::cout << std::endl;
-	//}
-
-	//else {
-	//	std::cout << std::endl;
-	//	std::cout << "you won!";
-	//	std::cout << std::endl;
-	//}
+	encounter.GenerateEncounter();
+	encounter.scrollPick(inv);
 
 	bool worldcomplete = 0;
 	int worldcount = 0;
 
-	//zi ming world code goes here 
+	map* world = handler.getcurrentmapptr();
 
-	//
-
-
-	//this can only print at max 8 walls
-	//if this can run then its perfect already
-	//multiworldsyst
-
-	map world(2, 2, 0, "0", "0", "510_01", "529_01","130_01", "140_01", "150_01", "160_01");
-
-
-
-
-
-
-	//map printing
-
-
-	//enemy1 , enemy2 , nul , 
-
-	int num = 0;
-	char input = 'a';
-
-	//so this is how it works the first number is the Y position and the X is the second
-	//-> (*...).getfunc
-
-	//lowkey just store all the positions here
-
-	//map gets all cordinates of everything 
-	//after everything moves???
-
-	//world.mapx(
-	//enemies into 
-
-	//enemies[3]
-
-	//forloop [3]
-
-	while (worldcomplete == 0 && world.getentitylist()[0] != nullptr) {
-		//map rendering
+	while (worldcomplete == 0 && world->getentitylist()[0] != nullptr) {
 		system("cls");
-		world.print();
-		std::cout << std::endl;
+		handler.printcurrentmap();
+		std::cout << std::endl << std::endl;
 
+		entity* player = world->getentitylist()[0];
 
-
-		std::cout << std::endl;
-
-		if (!(world.getentitylist()[0] == nullptr)) {
-			std::cout << "you have" << world.getentitylist()[0]->gethealth() << "hp left";
+		if (player != nullptr) {
+			std::cout << "you have" << player->gethealth() << "hp left";
 		}
 
-
-
-
-
-		//rebuild the map each time
-		for (int i = 0; i < world.getentitylistsize(); i++) {
-			if (world.getentitylist()[i] == nullptr) {
-				continue;
-			}
-			world.getentitylist()[i]->movementcheck(world.getentitylist(), world.getgameobjectlist(), world.getwalllist());
-
+		// --- movement/collision updates ---
+		for (int i = 0; i < world->getentitylistsize(); i++) {
+			if (world->getentitylist()[i] == nullptr) continue;
+			world->getentitylist()[i]->movementcheck(world->getentitylist(), world->getgameobjectlist(), world->getwalllist());
 		}
 
+		// --- door check: has player reached an unlocked door? ---
+		door* thedoor = static_cast<door*>(world->getgameobjectlist()[1]);
+
+		if (thedoor != nullptr && player != nullptr &&
+			player->getx() == thedoor->getx() && player->gety() == thedoor->gety() &&
+			thedoor->getopenstatus() == true) {
+
+			handler.setcurrentmap(handler.getcurrentmap() + 1);
+			world = handler.getcurrentmapptr(); // refresh pointer — now points at the new map
+		}
 	}
+
 	return 0;
 }
-
-
-
-
-
-//movex

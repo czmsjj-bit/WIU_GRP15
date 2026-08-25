@@ -26,12 +26,12 @@ int map::getentitylistsize() {
 
 
 
-int map::mapcount = 9;
+
 
 
 
 //this makes everything its just poorly named
-map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4 , std::string wall5 , std::string wall6 , std::string wall7 , std::string wall8)
+map::map(int buttonlocation , int doorlocation ,int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4 , std::string wall5 , std::string wall6 , std::string wall7 , std::string wall8)
 {
 
 	
@@ -62,7 +62,11 @@ map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2,
 
 	//assumed wall list goes here 
 	
+	//1404
 
+
+
+	
 
 	//void hero::spawn(int hp, int atk, int xpos, int ypos, char a, int rng)
 	hero* player = new hero(999, 0, 0, 0, 'P', 1, 1);
@@ -85,13 +89,20 @@ map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2,
 	//ORIGNAL CLASS CONSTRUCTOR AREA FOR OBJECTS still is...
 
 
-	
+	int value = buttonlocation;
+	int part1 = value / 100;   // 14
+	int part2 = value % 100;   // 4
 
-	boulder* item = new boulder(10, 5 , 'O');
+
+	boulder* item = new boulder(part1, part2 , 'O');
 
 	gameobjectlist[0] = item;
+	value = doorlocation;
+	 part1 = value / 100;   // 14
+	 part2 = value % 100;   // 4
 
-	door* DOOR = new door(14, 14, 'U' , 0);
+
+	door* DOOR = new door(part1, part2, 'U' , 0);
 
 	gameobjectlist[1] = DOOR;
 
@@ -376,7 +387,6 @@ map::~map()
 		delete walllist[i];
 	}
 	delete[] walllist;
-	mapcount--;
 }
 
 

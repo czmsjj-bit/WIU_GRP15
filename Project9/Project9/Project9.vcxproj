@@ -139,6 +139,7 @@
     <ClInclude Include="inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="map.h" />
+    <ClInclude Include="maphandler.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="ScrollList.h" />
     <ClInclude Include="wall.h" />
@@ -161,6 +162,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="map.cpp" />
+    <ClCompile Include="maphandler.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="ScrollList.cpp" />
     <ClCompile Include="wall.cpp" />
