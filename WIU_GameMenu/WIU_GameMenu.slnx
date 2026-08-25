@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WIU_GameMenu/WIU_GameMenu.vcxproj" Id="3e143153-9f13-4835-9122-d2481b46f64a" />
+</Solution>
