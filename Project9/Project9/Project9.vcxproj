@@ -123,6 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="button.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="encounter.h" />
     <ClInclude Include="harpy.h" />
     <ClInclude Include="boulder.h" />
     <ClInclude Include="Coordinates.h" />
@@ -131,10 +134,16 @@
     <ClInclude Include="gameobject.h" />
     <ClInclude Include="healthorb.h" />
     <ClInclude Include="hero.h" />
+    <ClInclude Include="inventory.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="map.h" />
+    <ClInclude Include="ScrollList.h" />
     <ClInclude Include="wall.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="encounter.cpp" />
     <ClCompile Include="harpy.cpp" />
     <ClCompile Include="boulder.cpp" />
     <ClCompile Include="Coordinates.cpp" />
@@ -143,8 +152,11 @@
     <ClCompile Include="gameobject.cpp" />
     <ClCompile Include="healthorb.cpp" />
     <ClCompile Include="hero.cpp" />
+    <ClCompile Include="inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="map.cpp" />
+    <ClCompile Include="ScrollList.cpp" />
     <ClCompile Include="wall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

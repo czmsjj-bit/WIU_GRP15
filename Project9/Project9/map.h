@@ -7,6 +7,8 @@
 #include "gameobject.h"
 #include "harpy.h"
 #include "wall.h"
+#include "door.h"
+#include "button.h"
 
 class map
 

@@ -82,19 +82,21 @@ map::map(int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2,
 		harpy * Tachy = new harpy(999, 5, rand() % 15, rand() % 15, U'ン');
 		entitylist[i] = Tachy;
 	}
-	//ORIGNAL CLASS CONSTRUCTOR AREA FOR OBJECTS
+	//ORIGNAL CLASS CONSTRUCTOR AREA FOR OBJECTS still is...
 
-	for (int i = 0; i < Item; i++) {
 
-		//	healthorb* healthglobe = new healthorb( rand() % 10, rand() % 10,'E');
+	
 
-		gameobjectlist[i] = nullptr;
+	boulder* item = new boulder(10, 5 , 'O');
 
-	}
+	gameobjectlist[0] = item;
 
-	boulder* item = new boulder(rand() % 15, rand() % 15, 'O');
+	door* DOOR = new door(14, 14, 'U' , 0);
 
-	gameobjectlist[2] = item;
+	gameobjectlist[1] = DOOR;
+
+	button* BUTTON = new button(10, 10, '-', 0);
+	gameobjectlist[2] = BUTTON;
 
 
 	//amount of walls
