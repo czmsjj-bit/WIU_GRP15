@@ -1,8 +1,7 @@
-﻿  encounter.cpp
+﻿  boulder.cpp
+  entity.cpp
   hero.cpp
-  inventory.cpp
-  Item.cpp
   main.cpp
-  ScrollList.cpp
+  map.cpp
   Generating Code...
   Project9.vcxproj -> C:\Users\Pillowaxe\OneDrive\New folder\Documents\GitHub\WIU_GRP15\Project9\x64\Debug\Project9.exe

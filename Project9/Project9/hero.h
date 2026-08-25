@@ -25,6 +25,8 @@ private:
 	bool status;
 	int attack;
 
+
+
 	//hp and everything stored in entity
 
 	//xpos and ypos stored in coordinates

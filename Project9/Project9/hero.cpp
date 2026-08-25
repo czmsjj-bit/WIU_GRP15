@@ -77,6 +77,7 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist, wall*
 	case's':
 		sety(gety() + 1);
 		break;
+
 		//if boulder is currently grabbed use boulder check to check if the boulder can be moved
 
 			//idea use static cast on this to call boulder move function 
