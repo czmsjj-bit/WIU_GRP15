@@ -174,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -194,10 +194,6 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "maphandler.cpp",
@@ -211,6 +207,10 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "maphandler.h",
@@ -220,8 +220,7 @@
               "RelativeToolTip": "Project9\\maphandler.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T07:45:20.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T07:45:20.357Z"
             },
             {
               "$type": "Document",
@@ -233,8 +232,7 @@
               "RelativeToolTip": "Project9\\map.cpp",
               "ViewState": "AgIAAJ4BAAAAAAAAAAAYwNwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T02:07:25.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:07:25.704Z"
             },
             {
               "$type": "Document",
@@ -246,8 +244,7 @@
               "RelativeToolTip": "Project9\\map.h",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T02:33:28.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:33:28.637Z"
             },
             {
               "$type": "Document",
@@ -259,8 +256,7 @@
               "RelativeToolTip": "Project9\\menu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T05:37:33.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T05:37:33.944Z"
             },
             {
               "$type": "Document",
@@ -272,8 +268,7 @@
               "RelativeToolTip": "Project9\\Item.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-24T12:31:53.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:31:53.515Z"
             },
             {
               "$type": "Document",
@@ -285,8 +280,7 @@
               "RelativeToolTip": "Project9\\ScrollList.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-24T12:34:08.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:34:08.493Z"
             },
             {
               "$type": "Document",
@@ -298,8 +292,7 @@
               "RelativeToolTip": "Project9\\boulder.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T07:08:04.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T07:08:04.083Z"
             },
             {
               "$type": "Document",
@@ -311,8 +304,7 @@
               "RelativeToolTip": "Project9\\entity.h",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T02:06:20.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:06:20.618Z"
             },
             {
               "$type": "Document",
@@ -324,8 +316,7 @@
               "RelativeToolTip": "Project9\\main.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T02:13:31.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:13:31.271Z"
             },
             {
               "$type": "Document",
@@ -337,8 +328,7 @@
               "RelativeToolTip": "Project9\\menu.cpp",
               "ViewState": "AgIAAIMAAAAAAAAAAAAAAKcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-25T05:38:00.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T05:38:00.557Z"
             },
             {
               "$type": "Document",
@@ -350,8 +340,7 @@
               "RelativeToolTip": "Project9\\ScrollList.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-24T12:34:18.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:34:18.086Z"
             },
             {
               "$type": "Document",
@@ -363,8 +352,7 @@
               "RelativeToolTip": "Project9\\healthorb.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T05:52:56.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T05:52:56.184Z"
             },
             {
               "$type": "Document",
@@ -376,8 +364,7 @@
               "RelativeToolTip": "Project9\\button.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-24T11:15:12.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T11:15:12.14Z"
             },
             {
               "$type": "Document",
@@ -389,8 +376,7 @@
               "RelativeToolTip": "Project9\\wall.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T03:03:53.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T03:03:53.718Z"
             },
             {
               "$type": "Document",
@@ -402,8 +388,7 @@
               "RelativeToolTip": "Project9\\wall.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T02:21:14.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:21:14.958Z"
             },
             {
               "$type": "Document",
@@ -415,8 +400,7 @@
               "RelativeToolTip": "Project9\\Item.cpp",
               "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-24T12:32:38.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:32:38.612Z"
             },
             {
               "$type": "Document",
@@ -440,8 +424,7 @@
               "RelativeToolTip": "Project9\\hero.cpp",
               "ViewState": "AgIAAJYAAAAAAAAAAAAwwKsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T02:06:22.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:06:22.269Z"
             },
             {
               "$type": "Document",
@@ -453,8 +436,7 @@
               "RelativeToolTip": "Project9\\healthorb.cpp",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T06:14:21.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T06:14:21.112Z"
             },
             {
               "$type": "Document",
@@ -466,8 +448,7 @@
               "RelativeToolTip": "Project9\\harpy.cpp",
               "ViewState": "AgIAAEAAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T02:25:48.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T02:25:48.722Z"
             },
             {
               "$type": "Document",
@@ -491,8 +472,7 @@
               "RelativeToolTip": "Project9\\gameobject.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-21T05:53:36.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T05:53:36.249Z"
             },
             {
               "$type": "Document",
@@ -516,8 +496,7 @@
               "RelativeToolTip": "Project9\\encounter.cpp",
               "ViewState": "AgIAAJcAAAAAAAAAAAAwwKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-24T12:33:20.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:33:20.598Z"
             },
             {
               "$type": "Document",
@@ -529,8 +508,7 @@
               "RelativeToolTip": "Project9\\door.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-24T11:20:51.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T11:20:51.813Z"
             },
             {
               "$type": "Document",
@@ -542,8 +520,7 @@
               "RelativeToolTip": "Project9\\Dialogue.cpp",
               "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-25T05:37:06.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T05:37:06.01Z"
             },
             {
               "$type": "Document",
@@ -567,8 +544,7 @@
               "RelativeToolTip": "Project9\\Cerberus.cpp",
               "ViewState": "AgIAAB8AAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-25T06:12:59.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T06:12:59.971Z"
             },
             {
               "$type": "Document",
@@ -592,8 +568,7 @@
               "RelativeToolTip": "Project9\\inventory.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-24T12:26:36.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T12:26:36.688Z"
             },
             {
               "$type": "Document",
@@ -605,8 +580,7 @@
               "RelativeToolTip": "Project9\\hero.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-21T04:21:17.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T04:21:17.649Z"
             },
             {
               "$type": "Document",
@@ -654,8 +628,7 @@
               "RelativeToolTip": "Project9\\door.h",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwBMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T06:17:28.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T06:17:28.928Z"
             },
             {
               "$type": "Document",
@@ -667,8 +640,7 @@
               "RelativeToolTip": "Project9\\Dialogue.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T05:36:31.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T05:36:31.85Z"
             },
             {
               "$type": "Document",
@@ -680,8 +652,7 @@
               "RelativeToolTip": "Project9\\Coordinates.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T06:16:34.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T06:16:34.999Z"
             },
             {
               "$type": "Document",
@@ -705,8 +676,7 @@
               "RelativeToolTip": "Project9\\button.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T07:01:52.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T07:01:52.029Z"
             }
           ]
         }
