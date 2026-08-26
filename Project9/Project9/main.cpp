@@ -16,15 +16,11 @@
 
 int main(void) {
 	maphandler handler;
-
+	/*char menuopen;*/
 	Menu menu;
 	menu.showTitleScreen();
 
-	Inventory inv;
-	Encounter encounter;
-	encounter.GenerateEncounter();
-	encounter.scrollPick(inv);
-
+	
 	bool worldcomplete = 0;
 	int worldcount = 0;
 
@@ -33,6 +29,14 @@ int main(void) {
 	while (worldcomplete == 0 && world->getentitylist()[0] != nullptr) {
 		system("cls");
 		handler.printcurrentmap();
+		//stdcout openmenu?
+		//std::getch = menuopen
+		//switch menuopen
+
+		/*case('open') {
+		open menu
+
+		*/
 		std::cout << std::endl << std::endl;
 
 		entity* player = world->getentitylist()[0];
@@ -47,7 +51,7 @@ int main(void) {
 			world->getentitylist()[i]->movementcheck(world->getentitylist(), world->getgameobjectlist(), world->getwalllist());
 		}
 
-		// --- door check: has player reached an unlocked door? ---
+
 		door* thedoor = static_cast<door*>(world->getgameobjectlist()[1]);
 
 		if (thedoor != nullptr && player != nullptr &&

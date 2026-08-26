@@ -47,6 +47,10 @@ public:
 
 	int digit(char c);
 
+	int upgradeddigit(char a, char c);
+
+	int digit2(const std::string& s, int startIndex);
+
 	//this is a pointer that points to a list full of entity pointers
 
 	//create
