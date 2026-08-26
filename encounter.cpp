@@ -156,7 +156,7 @@ void Encounter::encounterDisplay()
     std::cout << "Press 1-" << numColumns << " to pick up an item, [Q] to leave.\n";
 }
 
-void Encounter::scrollPick(Inventory& inventory)
+void Encounter::scrollPick()
 {
     if (encounterItems.empty())
     {
@@ -185,7 +185,7 @@ void Encounter::scrollPick(Inventory& inventory)
             {
                 Item* picked = encounterItems[slot];
 
-                inventory.AddItem(picked);
+                Inventory::GetInstance().AddItem(picked);
                 encounterItems.erase(encounterItems.begin() + slot);
 
                 std::cout << "\nYou picked up: " << picked->GetName() << "\n";
@@ -199,5 +199,5 @@ void Encounter::scrollPick(Inventory& inventory)
     }
 
     // Show the inventory so it's clear the item landed there.
-    inventory.RunInventory();
+    Inventory::GetInstance().RunInventory();
 }
