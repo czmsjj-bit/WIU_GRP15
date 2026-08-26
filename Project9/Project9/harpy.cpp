@@ -79,6 +79,14 @@ void harpy::movementcheck(entity** entitylist, gameobject** gameobjectlist, wall
                     }
                 }
             }
+                for (int u = 0; u < 99; u++) {
+                    if (walllist[u] != nullptr) {
+                        if (getx() == walllist[u]->getx() &&
+                            gety() == walllist[u]->gety()) {
+                            validMove = false;
+                        }
+                    }
+                }
             attempts++;
         }
     }

@@ -30,8 +30,8 @@ int map::getentitylistsize() {
 
 
 
-//this makes everything its just poorly named
-map::map(int buttonlocation , int doorlocation ,int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4 , std::string wall5 , std::string wall6 , std::string wall7 , std::string wall8)
+//this makes everything its just poorly named                          //soul position lol
+map::map(int boulderlocation , int buttonlocation , int doorlocation ,int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4 , std::string wall5 , std::string wall6 , std::string wall7 , std::string wall8)
 {
 
 	
@@ -89,7 +89,7 @@ map::map(int buttonlocation , int doorlocation ,int Enemy1, int Enemy2, int Item
 	//ORIGNAL CLASS CONSTRUCTOR AREA FOR OBJECTS still is...
 
 
-	int value = buttonlocation;
+	int value = boulderlocation;
 	int part1 = value / 100;   // 14
 	int part2 = value % 100;   // 4
 
@@ -106,8 +106,19 @@ map::map(int buttonlocation , int doorlocation ,int Enemy1, int Enemy2, int Item
 
 	gameobjectlist[1] = DOOR;
 
-	button* BUTTON = new button(10, 10, '-', 0);
+	 value = buttonlocation;
+	 part1 = value / 100;   // 14
+	 part2 = value % 100;   // 4
+
+	button* BUTTON = new button(part1, part2, '-', 0);
 	gameobjectlist[2] = BUTTON;
+
+	value = Item;
+	part1 = value / 100;   // 14
+	part2 = value % 100;   // 4
+
+	soul* Soul = new soul(part1, part2, '@');
+	gameobjectlist[3] = Soul;
 
 
 	//amount of walls

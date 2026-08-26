@@ -129,7 +129,7 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist, wall*
 		}
 	}
 	//remeber its called a destructor
-	for (int u = 0; u < 3; u++) {
+	for (int u = 0; u < 10; u++) {
 		if (gameobjectlist[u] != nullptr) {
 			if (getx() == gameobjectlist[u]->getx() &&
 				gety() == gameobjectlist[u]->gety())
@@ -148,6 +148,11 @@ void hero::movementcheck(entity** entitylist, gameobject** gameobjectlist, wall*
 				if (gameobjectlist[u]->geticon() == '-') {
 					setx(prevx);
 					sety(prevy);
+					return;
+				}
+				if (gameobjectlist[u]->geticon() == '@') {
+					delete gameobjectlist[u];
+					gameobjectlist[u] = nullptr;
 					return;
 				}
 				////i am a boulder pushing 

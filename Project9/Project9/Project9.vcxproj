@@ -142,6 +142,7 @@
     <ClInclude Include="maphandler.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="ScrollList.h" />
+    <ClInclude Include="soul.h" />
     <ClInclude Include="wall.h" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +166,7 @@
     <ClCompile Include="maphandler.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="ScrollList.cpp" />
+    <ClCompile Include="soul.cpp" />
     <ClCompile Include="wall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

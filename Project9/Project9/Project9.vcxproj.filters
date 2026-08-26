@@ -75,6 +75,9 @@
     <ClInclude Include="maphandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="soul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hero.cpp">
@@ -138,6 +141,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="maphandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soul.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -9,6 +9,7 @@
 #include "wall.h"
 #include "door.h"
 #include "button.h"
+#include "soul.h"
 
 class map
 {
@@ -23,7 +24,9 @@ public:
 	//
 	int getentitylistsize();
 
-	map(int buttonlocation , int doorlocation, int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4, std::string wall5, std::string wall6, std::string wall7, std::string wall8);
+	map(int boulderlocation, int buttonlocation, int doorlocation, int Enemy1, int Enemy2, int Item, std::string Wall1, std::string wall2, std::string wall3, std::string wall4, std::string wall5, std::string wall6, std::string wall7, std::string wall8);
+
+	
 
 	
 
@@ -38,6 +41,10 @@ public:
 
 	~map();
 	void print();
+
+
+	
+
 	int digit(char c);
 
 	//this is a pointer that points to a list full of entity pointers
