@@ -90,17 +90,19 @@ map::map(int boulderlocation , int buttonlocation , int doorlocation ,int Enemy1
 
 
 	int value = boulderlocation;
-	int part1 = value / 100;   // 14
-	int part2 = value % 100;   // 4
-
+	int part1 = value / 100  ;   // 14
+	part1 -= 1;
+	int part2 = value % 100 ;   // 4
+	part2 -= 1;
 
 	boulder* item = new boulder(part1, part2 , 'O');
 
 	gameobjectlist[0] = item;
 	value = doorlocation;
 	 part1 = value / 100;   // 14
+	 part1 -= 1;
 	 part2 = value % 100;   // 4
-
+	 part2 -= 1;
 
 	door* DOOR = new door(part1, part2, 'U' , 0);
 
@@ -108,15 +110,18 @@ map::map(int boulderlocation , int buttonlocation , int doorlocation ,int Enemy1
 
 	 value = buttonlocation;
 	 part1 = value / 100;   // 14
+	 part1 -= 1;
 	 part2 = value % 100;   // 4
+	 part2 -= 1;
 
 	button* BUTTON = new button(part1, part2, '-', 0);
 	gameobjectlist[2] = BUTTON;
 
 	value = Item;
 	part1 = value / 100;   // 14
+	part1 -= 1;
 	part2 = value % 100;   // 4
-
+	part2 -= 1;
 	soul* Soul = new soul(part1, part2, '@');
 	gameobjectlist[3] = Soul;
 

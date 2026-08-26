@@ -56,6 +56,7 @@ int main(void) {
 
 			handler.setcurrentmap(handler.getcurrentmap() + 1);
 			world = handler.getcurrentmapptr(); // refresh pointer — now points at the new map
+			
 		}
 	}
 

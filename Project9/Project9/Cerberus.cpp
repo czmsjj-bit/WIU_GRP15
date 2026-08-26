@@ -36,10 +36,14 @@ void Cerberus::movementcheck(entity** entitylist, gameobject** gameobjectlist, w
         return;   // player is dead
     }
 
+    int boulderY = gameobjectlist[0]->gety();
     int playerY = entitylist[0]->gety();
     int myY = gety();
 
     // If the player is on the same row, one above, or one below
+
+    // lol if boulder y does not == playery and bouldery d
+    if (!((std::abs(boulderY - myY) <= 1) && (boulderY == playerY)))
     if (std::abs(playerY - myY) <= 1) {
         Damage(entitylist[0]);
         if (entitylist[0]->gethealth() <= 0) {

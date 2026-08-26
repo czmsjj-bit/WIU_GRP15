@@ -5,26 +5,23 @@ maphandler::maphandler()
 	currentmap = 0;
 	maplist = new map * [mapcount];
 
-	// map 0 — the layout you already had working in main.cpp
-	maplist[0] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "530_01", "529_01", "530_01", "140_01", "150_01", "160_01");
+	//place ment range 1-15
 
-	// maps 1–8 — REPLACE these with your real level data
-	
+	maplist[0] = new map(910,1015, 1515, 0, 0, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
+	maplist[1] = new map(708,904, 1509, 2, 2, 0, "160_01", "0", "0", "0", "0", "0", "0", "0");
 
-	maplist[1] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
-
-	maplist[2] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
+	maplist[2] = new map(501,802, 1415, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
 	maplist[3] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
-	maplist[4] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
+	maplist[4] = new map(307,708, 1511, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
-	maplist[5] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
+	maplist[5] = new map(1203,1004, 1508, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
-	maplist[6] = new map(910,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
+	maplist[6] = new map(602,1010, 1570, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 
-	maplist[7] = new map(910 ,1404, 1305, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
+	maplist[7] = new map(1302 ,1307, 615, 2, 2, 0, "0", "0", "0", "0", "0", "0", "0", "0");
 	
 }
 
@@ -43,7 +40,7 @@ int maphandler::getcurrentmap()
 
 void maphandler::setcurrentmap(int mapnum)
 {
-	if (mapnum >= 0 && mapnum < mapcount) { // bounds check
+	if (mapnum >= 0 && mapnum < mapcount) {
 		currentmap = mapnum;
 	}
 }
