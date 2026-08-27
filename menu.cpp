@@ -37,7 +37,25 @@ Menu::Menu(maphandler* handler) {
 		persephoneDialogue.AddDialogue(1, "Persephone - Furthermore, this is my pet dog Cerberus (W). He will not chase you and is relatively tame. He must, however, fulfill his duties as the Guard Dog of the Underworld.");
 		persephoneDialogue.AddDialogue(1, "Persephone - He uses an AOE attack that affects certain rows, causing you to take damage from him. ");
 		persephoneDialogue.AddDialogue(1, "Persephone - You may use the boulder as a shield to absorb hits. Be careful how you use it as some puzzles require you to make sacrifices.");
+		//Room 8 Ending Dialogue
+		playerDialogue.AddDialogue(8, "You - *The breeze touches your skin as you exit the last dungeon. Your hair rustles in the wind.*");
+		playerDialogue.AddDialogue(8, "You - *You can feel the gentle easing of pressure against your chest as the heat against your flesh cools.*");
+		playerDialogue.AddDialogue(8, "You - *The air is filled with the pleasant, subtle scent of flowers. When you look up at the sky, there isn't any blazing lava or completely dark sky.*");
+		playerDialogue.AddDialogue(8, "You - *You are met with the most beautiful blue you have ever seen as sunshine trickles through the dappled grove.*");
+		playerDialogue.AddDialogue(8, "You - *Now, with a crunch beneath your feet, you move forward in search of the next day. You approach the next city, Athens.*");
+}
+//Extra ending for room 8 specifically
+void Menu::showEnding()
+{
+	int endingRoom = 8;
 
+	while (!playerDialogue.IsFinished(endingRoom))
+	{
+		system("cls");
+
+		playerDialogue.DisplayDialogue(endingRoom);
+		playerDialogue.NextDialogue(endingRoom);
+	}
 }
 
 void Menu::printTitle() {

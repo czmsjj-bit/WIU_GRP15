@@ -105,6 +105,7 @@ int main(void) {
 				if (handler.getcurrentmap() == 7){ handler.setcurrentmap(handler.getcurrentmap() + 2); }
 			}
 	}
+	menu.showEnding();
 	menu.showCredits();
 	return 0;
 }

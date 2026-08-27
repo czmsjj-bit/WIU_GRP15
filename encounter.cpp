@@ -80,7 +80,7 @@ void Encounter::GenerateEncounter()        // New Shit
         { "Teleport Scroll", "Teleports 5 tiles with chosen direction", 1, makeScroll<TeleportScroll> },
         { "Key", "Skips a room", 1, makeScroll<KeyScroll> },
         { "Dash Scroll",  "Dash 3 tiles down", 1, makeScroll<DashScroll> },
-        {"Quick Block Scroll", "Dash 3 tiles down", 1, makeScroll<QuickBlock>},
+        {"Quick Block Scroll", "Creation of 1 wall", 1, makeScroll<QuickBlock>},
         { "Scroll of Shield", "Grants a temporary Shield for a attack",    1, makeScroll<Shield> },
         {"Quick Block Scroll", "Creation of 1 wall", 1, makeScroll<QuickBlock>},
         {"Teleport Scroll", "Teleports 5 tiles with chosen direction", 1, makeScroll<TeleportScroll>}
@@ -183,7 +183,7 @@ void Encounter::scrollPick()
     {
         system("cls");
         encounterDisplay();
-
+        std::cout << "Charon - Welcome weary soul, what can I get for you ?" << std::endl;
         char input = _getch();
 
         if (input == 'q' || input == 'Q')
@@ -201,7 +201,7 @@ void Encounter::scrollPick()
 
                 Inventory::GetInstance().AddItem(picked);
                 encounterItems.erase(encounterItems.begin() + slot);
-
+                std::cout << "\nCharon - Safe travels, Sosicles." << "\n";
                 std::cout << "\nYou picked up: " << picked->GetName() << "\n";
                 system("pause");
 

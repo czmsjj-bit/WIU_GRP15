@@ -15,6 +15,8 @@ public:
     void printTitle();
     void showTitleScreen();
     void showControls();
+    //Extra for Room 8 Ending
+    void showEnding();
 
     void showCredits();
 
